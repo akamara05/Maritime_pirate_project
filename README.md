@@ -18,7 +18,7 @@ Identify causal societal and developmental factors related to piracy. Using thes
 ---
 
 ### Background
-When we think of maritime piracy it can often conjure up thoughts of wooden ships and eye patches, but it is still a problem that plagues us today. It is important to understand the societal and economic factors of piracy to redress causes of piracy and create a safer and more equitable world. The data was obtained from the National Geospatial-Intelligence Agency. We initially  obtained almost 8,000 observations of reported hostile acts against ships and mariners (pirate attacks) that ranged from 1978 to present. 
+When we think of maritime piracy it can often conjure up thoughts of wooden ships and eye patches, but it is still a problem that plagues us today. It is important to understand the societal and economic factors of piracy to redress causes of piracy and create a safer and more equitable world. The pirate attack data was obtained from the NATIONAL GEOSPATIAL-INTELLIGENCE AGENCY. This data set included over 7,000 observations of reported pirate attacks that ranged from 1978 to the present. Other data regarding economic, education, sea law adaptation, and research and development was sourced from the United Nations and Worldbank data repository, specifically focused on their sustainable development goal data.  
 
 ---
 
@@ -62,7 +62,7 @@ When we think of maritime piracy it can often conjure up thoughts of wooden ship
 ### Preprocessing and Modeling
 We were initially able to pull over 7,000 observations of reported pirate attacks that ranged from 1978-present. Our project was more concerned with the effects of modern piracy, and as regions, economic factors and technologies would experience a great deal of change over the course of that time period we decided to look only at the attacks from 2010 to the present day.  This left us with approximately 3,5000 observations which was more than enough for our purposes.
 
-By far, cleaning the data was the most time consuming portion of this project. The biggest issue we had was joining the different datas which required the featuring of the country column based on coordinate values. We were able to accomplish this using the Nominatim module from a python package called goepy. Nominatim’s usage policy restricted us to a maximum of 1 request per second which, given the initial size of the data, was very time consuming.  Attack observations were linked to our other data sets by associated countries or, if too far from the coastline, were labeled as International waters. Not all countries had records of the economic, educational, sea law and research and development for every single year so those values had to be imputed by what was available.
+By far, cleaning the data was the most time consuming portion of this project. The biggest issue we had was joining the different datas which required the featuring of the country column based on coordinate values. We were able to accomplish this using the Nominatim module from a python package called GeoPy. Nominatim’s usage policy restricted us to a maximum of 1 request per second which, given the initial size of the data, was very time consuming.  Attack observations were linked to our other data sets by associated countries or, if too far from the coastline, were labeled as International waters. Not all countries had records of the economic, educational, sea law and research and development for every single year so those values had to be imputed by what was available.
 
 Classification models used were Logistic Regression, K-Nearest Neighbors, Random Forest. First, a baseline score was established then used GridSearchCV to identify the best scores and parameters generated from the models. 
 
@@ -84,7 +84,7 @@ In conclusion most pirate attacks are happening in equatorial countries. Attacks
 ---
 
 ### Datasets
-* [Anti-Shipping_Activity_Messages.csv](#'../datasets/Anti-Shipping_Activity_Messages.csv')
+* [Anti-Shipping_Activity_Messages.csv](#'/datasets/Anti-Shipping_Activity_Messages.csv')
 * [esri_w_country_columns.csv]('datasets/esri_w_country_columns.csv')
 * [sea_law.csv]('datasets/sea_law.csv') 
 * [cleaned_pirate_activity_eda.csv]('datasets/cleaned_pirate_activity_eda.csv')  
