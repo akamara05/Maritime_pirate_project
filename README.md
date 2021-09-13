@@ -40,17 +40,15 @@ Classification models used were Logistic Regression, K-Nearest Neighbors, Random
 ---
 
 ### Conclusion and Recommendations
-
+In conclusion most pirate attacks are happening in equatorial countries. Attacks tend to cluster in geographical choke points. Creating land based lookout and upping patrols points in these vulnerable areas. Most attacks are occurring in regions that have a higher poverty percentage, thus compounding problems in already troubled regions.There has been a steady decrease in pirating activity over the past decade. Cargo ships and tankers are at a higher risk. We recommend increased security on board for these types of vessels and adoption of sea laws should help curb piracy.
 
 ---
 
 ### Datasets
-* [eda_df.csv]('datasets/da_df.csv'): 
-* [math.csv]('datasets/math.csv'): 
-* [modeling.csv]('datasets/modeling.csv'):
-* [poverty,csv]('datasets/poverty.csv'):
-* [rd_gdp.csv]('datasets/re_gdp.csv'):
-* [reading.csv]('datasets/reading.csv'):
-* [research.csv]('datasets/research.csv'):
+* [Anti-Shipping_Activity_Messages.csv](#'../datasets/Anti-Shipping_Activity_Messages.csv')
+* [esri_w_country_columns.csv]('datasets/esri_w_country_columns.csv')
+* [sea_law.csv]('datasets/sea_law.csv') 
+* [cleaned_pirate_activity_eda.csv]('datasets/cleaned_pirate_activity_eda.csv')  
+* [modeling.csv]('datasets/modeling.csv') 
 
 ---
