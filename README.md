@@ -49,12 +49,7 @@ In conclusion most pirate attacks are happening in equatorial countries. Attacks
 * [esri_w_country_columns.csv]('datasets/esri_w_country_columns.csv')
 * [sea_law.csv]('datasets/sea_law.csv') 
 * [eda_df.csv]('datasets/da_df.csv')
-* [cleaned_pirate_activity_eda.csv]('datasets/cleaned_pirate_activity_eda.csv') 
-* [math.csv]('datasets/math.csv') 
-* [modeling.csv]('datasets/modeling.csv')
-* [poverty,csv]('datasets/poverty.csv') 
-* [rd_gdp.csv]('datasets/re_gdp.csv') 
-* [reading.csv]('datasets/reading.csv')
-* [research.csv]('datasets/research.csv')
+* [cleaned_pirate_activity_eda.csv]('datasets/cleaned_pirate_activity_eda.csv')  
+* [modeling.csv]('datasets/modeling.csv') 
 
 ---
