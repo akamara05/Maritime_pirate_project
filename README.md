@@ -22,6 +22,43 @@ When we think of maritime piracy it can often conjure up thoughts of wooden ship
 
 ---
 
+**Data Dictionary for Anti-Shipping_Activity_Messages.csv**
+
+|Feature|Type|Dataset|Description|
+|---|---|---|---|
+|**X**|*float*|Anti-Shipping Piracy Messages|Longitude Coordinate|
+|**Y**|*float*|Anti-Shipping Piracy Messages|Latitude Coordinate|
+|**OBJECTID**|*int*|Anti-Shipping Piracy Messages|Attack observation ID|
+|**reference**|*object*|Anti-Shipping Piracy Messages|Attack reference number|
+|**dateofocc**|*object*|Anti-Shipping Piracy Messages|Date of occurence|
+|**subreg**|*int*|Anti-Shipping Piracy Messages|Subregion|
+|**hostility_d**|*object*|Anti-Shipping Piracy Messages|Description of type of attack|
+|**victim_d**|*object*|Anti-Shipping Piracy Messages|Description of victim|
+|**description**|*object*|Anti-Shipping Piracy Messages|Detailed description of attack by person reporting the incident|
+|**hostilitytype_l**|*float*|Anti-Shipping Piracy Messages|Attack type broken out by category|
+|**victim_l**|*float*|Anti-Shipping Piracy Messages|Victim type broken out by category|
+|**navarea**|*object*|Anti-Shipping Piracy Messages|Navigation Area|
+
+
+**Order to Run Notebooks**
+1. Part 1 - Cleaning 1
+2. Part 2 - Cleaning 2
+3. Part 3 - Pirates EDA
+4. Part 4 - Modeling 
+
+
+**Software Requirements**
+1. Numpy - Complex math
+2. Pandas - Data frames
+3. Geopy - Used to feature engineer based off of coordinates
+4. Seaborn - Visual Plots
+5. Matplotlib - Visual Plots
+6. Folium - Generate maps 
+7. IPython - Display image files
+8. Warnings - Prevent warning messages
+9. Sklearn - Modeling
+
+
 ### Preprocessing and Modeling
 We were initially able to pull over 7,000 observations of reported pirate attacks that ranged from 1978-present. Our project was more concerned with the effects of modern piracy, and as regions, economic factors and technologies would experience a great deal of change over the course of that time period we decided to look only at the attacks from 2010 to the present day.  This left us with approximately 3,5000 observations which was more than enough for our purposes.
 
@@ -38,6 +75,8 @@ Classification models used were Logistic Regression, K-Nearest Neighbors, Random
 |Random Forest w/o Location Features |0.973             |0.879             |0.93 +- 0.10  |
 
 ---
+
+
 
 ### Conclusion and Recommendations
 In conclusion most pirate attacks are happening in equatorial countries. Attacks tend to cluster in geographical choke points. Creating land based lookout and upping patrols points in these vulnerable areas. Most attacks are occurring in regions that have a higher poverty percentage, thus compounding problems in already troubled regions.There has been a steady decrease in pirating activity over the past decade. Cargo ships and tankers are at a higher risk. We recommend increased security on board for these types of vessels and adoption of sea laws should help curb piracy.
