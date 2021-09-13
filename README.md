@@ -5,18 +5,20 @@
 ### Table of Contents
 
 1. [Problem Statement](#Problem-Statement)
-2. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
-3. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
-4. [Datasets](#Datasets)
+2. [Background](#Background)
+3. [Preprocessing & Modeling](#Preprocessing-and-Modeling)
+4. [Conclusion and Recommendations](#Conclusion-and-Recommendations)
+5. [Datasets](#Datasets)
 
 ---
 
 ### Problem Statement
-Identify and rank causal societal and developmental factors related to piracy. Using these factors we aim to create an effective model to prove that these factors are strong determinants of high piracy activity within the countries in our scope. 
+Identify causal societal and developmental factors related to piracy. Using these factors we aim to create an effective model to prove that these factors are strong determinants of high piracy activity within the countries looking at attacks from 2010 onwards. 
 
-What types of pirate attacks exist?
+---
 
-Our data defined pirate attacks as assaults, suspicious approaches, kidnapping, attempted boarding and hijacking that occur out at sea.
+### Background
+When we think of maritime piracy it can often conjure up thoughts of wooden ships and eye patches, but it is still a problem that plagues us today. It is important to understand the societal and economic factors of piracy to redress causes of piracy and create a safer and more equitable world. The data was obtained from the National Geospatial-Intelligence Agency. We initially  obtained almost 8,000 observations of reported hostile acts against ships and mariners (pirate attacks) that ranged from 1978 to present. 
 
 ---
 
@@ -38,7 +40,6 @@ Classification models used were Logistic Regression, K-Nearest Neighbors, Random
 ---
 
 ### Conclusion and Recommendations
-
 
 
 ---
