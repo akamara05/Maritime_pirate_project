@@ -40,7 +40,7 @@ Classification models used were Logistic Regression, K-Nearest Neighbors, Random
 ---
 
 ### Conclusion and Recommendations
-
+In conclusion most pirate attacks are happening in equatorial countries. Attacks tend to cluster in geographical choke points. Creating land based lookout and upping patrols points in these vulnerable areas. Most attacks are occurring in regions that have a higher poverty percentage, thus compounding problems in already troubled regions.There has been a steady decrease in pirating activity over the past decade. Cargo ships and tankers are at a higher risk. We recommend increased security on board for these types of vessels.
 
 ---
 
